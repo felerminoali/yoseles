@@ -13,4 +13,13 @@ public class HomeController {
         model.addObject("message", "Hello Yose");
         return model;
     }
+
+    @GetMapping("/contactme")
+    public ModelAndView contactMe(){
+
+        ModelAndView model = new ModelAndView("contactme");
+        return model;
+    }
+
+
 }
