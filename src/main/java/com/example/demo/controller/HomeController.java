@@ -10,7 +10,7 @@ public class HomeController {
     @GetMapping("/")
     public ModelAndView index(){
         ModelAndView model = new ModelAndView("index");
-        model.addObject("message", "hello world!");
+        model.addObject("message", "Hello Yose");
         return model;
     }
 }
